@@ -15,8 +15,6 @@ input {
 }
 
 #calculator {
-    /* display: grid;
-    place-items: center; */
     margin: 60px auto;
     background: #616369;
     width: 420px;
