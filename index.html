@@ -14,26 +14,37 @@
     <div><a href="https://github.com/andychuks51/calculator-project-zuri">Link to the code</a><div/>
 
     <div id="calculator">
-        <input id="display" readonly>
-        <div id="keys">
-            <button onclick="updateDisplay('7')">7</button>
-            <button onclick="updateDisplay('8')">8</button>
-            <button onclick="updateDisplay('9')">9</button>
-            <button onclick="updateDisplay('/')">/</button>
-            <button onclick="updateDisplay('4')">4</button>
-            <button onclick="updateDisplay('5')">5</button>
-            <button onclick="updateDisplay('6')">6</button>
-            <button onclick="updateDisplay('*')">x</button>
-            <button onclck="updateDisplay('1')">1</button>
-            <button onclick="updateDisplay('2')">2</button>
-            <button onclick="updateDisplay('3')">3</button>
-            <button onclick="updateDisplay('-')">-</button>
-            <button onclick="updateDisplay('0')">0</button>
-            <button onclick="updateDisplay('.')">.</button>
-            <button onclick="updateDisplay('+')">+</button>
-            <button class="equal" onclick="calculate()">=</button>
-        </div>
-
+        <table>
+            <tr>
+                <td><input id="display" readonly></td>
+            </tr>
+        </table>
+        <table id="keys">
+            <tr>
+                <td><button onclick="updateDisplay('7')">7</button></td>
+                <td><button onclick="updateDisplay('8')">8</button></td>
+                <td><button onclick="updateDisplay('9')">9</button></td>
+                <td><button onclick="updateDisplay('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="updateDisplay('4')">4</button></td>
+                <td><button onclick="updateDisplay('5')">5</button></td>
+                <td><button onclick="updateDisplay('6')">6</button></td>
+                <td><button onclick="updateDisplay('*')">x</button></td>
+            </tr>
+            <tr>
+                <td><button onclck="updateDisplay('1')">1</button></td>
+                <td><button onclick="updateDisplay('2')">2</button></td>
+                <td><button onclick="updateDisplay('3')">3</button></td>
+                <td><button onclick="updateDisplay('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="updateDisplay('0')">0</button></td>
+                <td><button onclick="updateDisplay('.')">.</button></td>
+                <td><button onclick="updateDisplay('+')">+</button></td>
+                <td><button class="equal" onclick="calculate()">=</button></td>
+            </tr>
+        </table>
     </div>
     <script src="script.js"></script>
 </body>

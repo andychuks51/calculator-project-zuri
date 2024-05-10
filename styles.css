@@ -15,8 +15,8 @@ input {
 }
 
 #calculator {
-    display: grid;
-    place-items: center;
+    /* display: grid;
+    place-items: center; */
     margin: 60px auto;
     background: #616369;
     width: 420px;
@@ -26,9 +26,8 @@ input {
 }
 
 
-#keys {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+table {
+    margin-inline: auto;
     margin-bottom: 40px;
 }
 
